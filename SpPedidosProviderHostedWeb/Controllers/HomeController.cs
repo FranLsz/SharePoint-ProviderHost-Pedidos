@@ -158,7 +158,8 @@ namespace SpPedidosProviderHostedWeb.Controllers
                             Cliente = pedidosItem["Title"].ToString(),
                             Pedido = pi["Title"].ToString(),
                             Unidades = uds,
-                            Total = venta
+                            Total = venta,
+                            idProducto = lId
                         });
                     }
                 }
